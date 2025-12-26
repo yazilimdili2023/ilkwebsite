@@ -7,7 +7,24 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server">   <ul>
+       <li><a href="Default.aspx">ANASAYFA</a></li>
+       <li><a href="Hakkimizda.aspx">HAKKIMIZDA</a></li>
+       <li><a href="Urunler.aspx">ÜRÜNLER</a></li>
+       <li><a href="Referanslar.aspx">REFERANSLAR</a></li>
+       <li><a href="Haberler.aspx">HABERLER</a></li>
+       <li><a href="Iletisim.aspx">İLETİŞİM</a></li>
+   </ul>
+        <h1>REFERANSLAR</h1>
+        <asp:Repeater ID="Repeater1" runat="server">
+            <ItemTemplate>
+                
+                    <h2><%# Eval("ReferansID") %> - <%# Eval("ReferansAdi") %></h2>
+                
+          
+
+            </ItemTemplate>
+        </asp:Repeater>
         <div>
         </div>
     </form>
