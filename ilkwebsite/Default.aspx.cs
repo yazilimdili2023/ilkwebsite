@@ -11,5 +11,6 @@ public partial class _Default : System.Web.UI.Page
     {
 
         Response.Write("Merhaba Dünya! Bu benim ilk ASP.NET Web Form sayfam.");
+        Response.Write(DateTime.Now.ToString());
     }
 }
