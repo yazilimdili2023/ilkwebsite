@@ -16,6 +16,8 @@
        <li><a href="Haberler.aspx">HABERLER</a></li>
        <li><a href="Iletisim.aspx">İLETİŞİM</a></li>
    </ul>
+            
+
         </div>
     </form>
 </body>

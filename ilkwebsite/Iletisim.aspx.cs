@@ -23,8 +23,6 @@ public partial class Iletisim : System.Web.UI.Page
             lblMail.Text=sqlDataReader["SirketMail"].ToString();
       
            lblAdres.Text=sqlDataReader["SirketAdres"].ToString();
-            //  txtMesajTarih.Text=DateTime.Now.ToString("yyyy-MM-dd");
-            //  txtMesajTarih.Text=DateTime.Now.ToString("yyyy-MM-dd"); ileşimi testttta
 
         }
         conn.Close();
